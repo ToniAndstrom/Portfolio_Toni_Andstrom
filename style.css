@@ -30,9 +30,11 @@ nav a {
 
 .mobile {
     display: none;
-    background: black;
+    background: rgb(255, 119, 0);
     color: white;
     border: none;
+    padding: 20px;
+    border-radius: 5px;
 }
 body {
     height: 110vh;
@@ -147,6 +149,7 @@ Img {
 }
 #projects {
     display: flex;
+    justify-content: center;
 }
 h2 {
     padding:20px;
@@ -163,7 +166,7 @@ h3{
     text-align: center;
     align-items: center;
     border: solid lightgray;
-    margin: 50px;
+    margin: 20px;
    
 }
 a{
@@ -178,12 +181,12 @@ a{
     padding:20px;
 }
 #aboutMe {
-    background: orange;
+    background: rgb(255, 119, 0);
     display: flex;
     padding: 1rem;
 }
 #aboutMeH2 {
-    background: orange;
+    background: rgb(255, 119, 0);
 }
 
 #skills {
@@ -264,13 +267,14 @@ margin-bottom: 20px;
 }
 .form-wrap button {
     width: 80%;
-    background: coral;
+    background: rgb(255, 119, 0);
     color: white;
     padding:10px;
     border-radius: 5px;
     border: none;
     margin-bottom: 20px;
     text-transform: uppercase;
+    font-family: inherit;
 
 }
 
@@ -286,7 +290,7 @@ footer{
     width: 100px;
     position: fixed;
     bottom:1rem;
-    right:3rem;
+    right:2rem;
     display: none;
 }
 .bg {
